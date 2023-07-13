@@ -8,8 +8,8 @@ public class Question_1 {
 			System.out.print("Enter the radius (R) of the circle: ");
 			double radius = input.nextDouble();
 
-			double area = Math.PI * radius * radius; // Calculate the area
-			double circumference = 2 * Math.PI * radius; // Calculate the circumference
+			double area = Math.PI * radius * radius;
+			double circumference = 2 * Math.PI * radius;
 
 			System.out.println("Area of the circle (AC): " + area);
 			System.out.println("Circumference of the circle (CC): " + circumference);
