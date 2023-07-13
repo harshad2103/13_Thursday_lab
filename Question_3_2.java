@@ -14,14 +14,14 @@ public class Question_3_2 {
 			System.out.print("Number 3: ");
 			int num3 = input.nextInt();
 
-			int greatest = num1; // Assume the first number is the greatest initially
+			int greatest = num1;
 
 			if (num2 > greatest) {
-			    greatest = num2; // Update the greatest if the second number is larger
+			    greatest = num2;
 			}
 
 			if (num3 > greatest) {
-			    greatest = num3; // Update the greatest if the third number is larger
+			    greatest = num3;
 			}
 
 			System.out.println("The greatest number is: " + greatest);
